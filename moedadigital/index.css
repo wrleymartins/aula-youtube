@@ -1,0 +1,52 @@
+
+
+
+CSS (styles.css):
+css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin: 6px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #ccc;
+}
+
+.input-group {
+    margin: 10px 0;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
